@@ -1,0 +1,5 @@
+D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/24_02_04_Quality_Param_Assess_GUI.dir
+D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/edit_cache.dir
+D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/rebuild_cache.dir
+D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/24_02_04_Quality_Param_Assess_GUI_autogen_timestamp_deps.dir
+D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/24_02_04_Quality_Param_Assess_GUI_autogen.dir

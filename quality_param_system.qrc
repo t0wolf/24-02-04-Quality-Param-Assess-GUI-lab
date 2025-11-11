@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/icon_save.png</file>
+        <file>resources/icon_delete.png</file>
+        <file>resources/icon_delete_bright.png</file>
+        <file>resources/icon_save_bright.png</file>
+    </qresource>
+    <qresource prefix="/images"/>
+</RCC>

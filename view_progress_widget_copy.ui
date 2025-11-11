@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewProgressWidget</class>
+ <widget class="QWidget" name="ViewProgressWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>579</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QWidget" name="widget" native="true">
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="1" column="1">
+          <widget class="QListWidget" name="apicalProgressList">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>150</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+QListWidget {
+    background-color: #2b2b2b;
+    border: 2px solid #3c3f41;
+}
+
+QListWidget::item {
+    padding: 5px;
+    color: #a9b7c6;
+    border-bottom: 1px solid #3c3f41;
+}
+
+QListWidget::item:last-child {
+    border-bottom: none;
+}
+
+QListWidget::item:selected {
+    background-color: #214283;
+    color: #a9b7c6;
+}
+
+QListWidget::item:hover {
+    background-color: #3c3f41;
+}
+
+QListWidget::item:disabled {
+    color: #808080;
+}
+
+QListWidget::item:checked {
+    background-color: #214283;
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>A2C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A3C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A4C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A5C</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QListWidget" name="paramProgressList">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+QListWidget {
+    background-color: #2b2b2b;
+    border: 2px solid #3c3f41;
+}
+
+QListWidget::item {
+    padding: 5px;
+    color: #a9b7c6;
+    border-bottom: 1px solid #3c3f41;
+}
+
+QListWidget::item:last-child {
+    border-bottom: none;
+}
+
+QListWidget::item:selected {
+    background-color: #214283;
+    color: #a9b7c6;
+}
+
+QListWidget::item:hover {
+    background-color: #3c3f41;
+}
+
+QListWidget::item:disabled {
+    color: #808080;
+}
+
+QListWidget::item:checked {
+    background-color: #214283;
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>二尖瓣血流流速</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>肺动脉瓣流速</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>三尖瓣反流流速</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>主动脉瓣流速及速度时间积分</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>二尖瓣室间隔瓣环速度</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>二尖瓣侧壁瓣环速度</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QListWidget" name="shortProgressList">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>150</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+QListWidget {
+    background-color: #2b2b2b;
+    border: 2px solid #3c3f41;
+}
+
+QListWidget::item {
+    padding: 5px;
+    color: #a9b7c6;
+    border-bottom: 1px solid #3c3f41;
+}
+
+QListWidget::item:last-child {
+    border-bottom: none;
+}
+
+QListWidget::item:selected {
+    background-color: #214283;
+    color: #a9b7c6;
+}
+
+QListWidget::item:hover {
+    background-color: #3c3f41;
+}
+
+QListWidget::item:disabled {
+    color: #808080;
+}
+
+QListWidget::item:checked {
+    background-color: #214283;
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>PLAX</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>PSAXA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>PSAXMV</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>PSAXGV</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>PSAXPM</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QListWidget" name="plaxParamProgressList">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+QListWidget {
+    background-color: #2b2b2b;
+    border: 2px solid #3c3f41;
+}
+
+QListWidget::item {
+    padding: 5px;
+    color: #a9b7c6;
+    border-bottom: 1px solid #3c3f41;
+}
+
+QListWidget::item:last-child {
+    border-bottom: none;
+}
+
+QListWidget::item:selected {
+    background-color: #214283;
+    color: #a9b7c6;
+}
+
+QListWidget::item:hover {
+    background-color: #3c3f41;
+}
+
+QListWidget::item:disabled {
+    color: #808080;
+}
+
+QListWidget::item:checked {
+    background-color: #214283;
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>室间隔厚度</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>左室内径</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>左室后壁厚度</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>主动脉瓣环直径</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>窦部直径</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>窦管交界直径</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>升主动脉直径</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>左房前后径</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>左室容积</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>射血分数</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>400</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QLabel" name="paramDemoLabel">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

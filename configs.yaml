@@ -1,0 +1,18 @@
+ONLINE_ENCODER:
+  IP: "D:/Dataset/1.Echocardiograph/video_data/USM.1.2.840.113619.2.239.10202.1640160218.0.358.512_VIVIDE9-010202.DCM.avi"
+OFFLINE_VIDEO_ID: 0
+QUALITY_RULES_JSON_PATH: "D:\\Resources\\20240221\\quality_control_rules.json"
+PARAM_EVENTS_JSON_PATH: "D:\\Resources\\20240221\\param_assess_events.json"
+PARAM_MODELS_PATH:
+  MVEA_DETECT_PATH: "D:\\Resources\\20240221\\param_assess_models\\MVEA_Objdetect_0612.engine"
+  MVEA_KEYPOINT_PATH: "D:\\Resources\\20240221\\param_assess_models\\MVEA_Keypoint_0612.engine"
+  PV_DETECT_PATH: "D:\\Resources\\20240221\\param_assess_models\\PV_Objdetect_0612.engine"
+  PV_KEYPOINT_PATH: "D:\\Resources\\20240221\\param_assess_models\\PV_Keypoint_0612.engine"
+  TDIIVS_DETECT_PATH: "D:\\Resources\\20240221\\param_assess_models\\TDI_IVS_Objdetect_0327.engine"
+  TDIIVS_KEYPOINT_PATH: "D:\\Resources\\20240221\\param_assess_models\\TDI_IVS_Keypoint_0328.engine"
+  TDIMVLW_DETECT_PATH: "D:\\Resources\\20240221\\param_assess_models\\TDI_MVLW_Objdetect_0328.engine"
+  TDIMVLW_KEYPOINT_PATH: "D:\\Resources\\20240221\\param_assess_models\\TDI_MVLW_Keypoint_0328.engine"
+  TR_DETECT_PATH: "D:\\Resources\\20240221\\param_assess_models\\TR_Objdetect_0328.engine"
+  TR_KEYPOINT_PATH: "D:\\Resources\\20240221\\param_assess_models\\TR_Keypoint_0328.engine"
+  AO_KEYPOINT_PATH: "D:\\Resources\\20240221\\param_assess_models\\FVAV_0613.engine"
+	

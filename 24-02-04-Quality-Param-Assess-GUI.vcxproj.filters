@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="quality_control\AngleCalculationA4C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\EchoQuality.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\EchoQualityAssessmentA4C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\EchoQualityAssessmentPSAXA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\EchoQualityAssessmentPSAXGV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\EchoQualityAssessmentPSAXMV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\GainClassification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\KeyframeDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\RoIExtraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\StructureDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\aad_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\aao_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\aao_segment_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\angleinfer_a4c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\asd_and_sjd_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\assess_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\avad_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\avad_keypoints_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clickable_label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config_parse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\cplusfuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display_stream_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\echo_quality_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\ef_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\ef_segment_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\ef_video_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="framelesswindow\framelesswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\gaininfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="general_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\image_process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\integrity_classification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\ivs_and_pw_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\keyframe_det_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\keyframe_detector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\keyframeinfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\laad_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="models_inference_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\opencvfuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assess_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assess_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assesser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_display_item_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_display_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_premium_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\plax_params_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="progress_super_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\quality_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="process_threads\quality_control_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_detail_play_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_detail_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_display_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\quality_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\roi_detection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param_assessment\segment_infer_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quality_control\structureinfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="video_stream_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_classification_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_cls_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_progress_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="framelesswindow\windowdragger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="quality_control\AngleCalculationA4C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="DarkStyle.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="quality_control\EchoQuality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\EchoQualityAssessmentA4C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\EchoQualityAssessmentPSAXA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\EchoQualityAssessmentPSAXGV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\EchoQualityAssessmentPSAXMV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\GainClassification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\KeyframeDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\RoIExtraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\StructureDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\aad_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\aao_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\aao_segment_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\allocators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\angleinfer_a4c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\asd_and_sjd_access.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\assess_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\avad_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\avad_keypoints_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\biginteger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\buffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="clickable_label.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="rapidjson\internal\clzll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\cplusfuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\cursorstreamwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="display_stream_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="rapidjson\internal\diyfp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\dtoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\echo_quality_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\ef_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\ef_segment_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\ef_video_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\error\en.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\encodedstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\encodings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\error\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\filereadstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\filewritestream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="framelesswindow\framelesswindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="rapidjson\fwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\gaininfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="general_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\ieee754.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\image_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\integrity_classification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\msinttypes\inttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\iqaparams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\istreamwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\itoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\ivs_and_pw_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\keyframe_det_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\keyframe_detector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\keyframeinfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\laad_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="rapidjson\memorybuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\memorystream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="models_inference_thread.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="quality_control\opencvfuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\ostreamwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assess_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="param_assess_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="param_assesser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="param_display_item_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="param_display_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="param_premium_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="param_assessment\plax_params_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\pow10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\prettywriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="progress_super_thread.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="quality_control\quality_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="process_threads\quality_control_thread.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="quality_control_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="quality_detail_play_thread.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="quality_detail_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="quality_display_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="quality_control\quality_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\rapidjson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\regex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\roi_detection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\schema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="param_assessment\segment_infer_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\msinttypes\stdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\strfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\stringbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\strtod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\structureinfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\swap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typemapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality_control\typemappings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\uri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="video_stream_thread.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="view_classification_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="view_cls_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="view_progress_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="framelesswindow\windowdragger.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="rapidjson\writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="display_stream_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="framelesswindow\framelesswindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="param_assess_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="param_assess_widget_copy.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="param_display_item_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="param_display_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="param_premium_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="quality_control_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="quality_detail_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="quality_display_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="view_progress_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="view_progress_widget_copy.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="darkstyle.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="darkstyle\darkstyle.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="framelesswindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="darkstyle\icon_branch_closed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_branch_end.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_branch_more.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_branch_open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_checked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_checked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_checked_pressed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_indeterminate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_indeterminate_disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_indeterminate_pressed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_unchecked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_unchecked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_unchecked_pressed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icon_delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icon_delete_bright.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_checked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_checked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_checked_pressed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_unchecked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_unchecked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_unchecked_pressed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_restore.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icon_save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icon_save_bright.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_undock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_vline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\icon_window_close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\icon_window_maximize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\icon_window_minimize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\icon_window_restore.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="quality_param_system.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="darkstyle\darkstyle.qss">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="quality_control\common\dumpTFWts.py">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_branch_closed.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_branch_end.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_branch_more.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_branch_open.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_checked.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_checked_disabled.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_checked_pressed.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_indeterminate.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_indeterminate_disabled.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_indeterminate_pressed.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_unchecked.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_unchecked_disabled.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_checkbox_unchecked_pressed.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_close.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_checked.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_checked_disabled.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_checked_pressed.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_unchecked.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_unchecked_disabled.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_radiobutton_unchecked_pressed.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_restore.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_undock.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\icon_vline.png">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="darkstyle\darkstyle.qss" />
+    <None Include="darkstyle\icon_branch_closed.png" />
+    <None Include="darkstyle\icon_branch_end.png" />
+    <None Include="darkstyle\icon_branch_more.png" />
+    <None Include="darkstyle\icon_branch_open.png" />
+    <None Include="darkstyle\icon_checkbox_checked.png" />
+    <None Include="darkstyle\icon_checkbox_checked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_checked_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_close.png" />
+    <None Include="darkstyle\icon_radiobutton_checked.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_pressed.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_restore.png" />
+    <None Include="darkstyle\icon_undock.png" />
+    <None Include="darkstyle\icon_vline.png" />
+    <None Include="darkstyle\darkstyle.qss" />
+    <None Include="darkstyle\icon_branch_closed.png" />
+    <None Include="darkstyle\icon_branch_end.png" />
+    <None Include="darkstyle\icon_branch_more.png" />
+    <None Include="darkstyle\icon_branch_open.png" />
+    <None Include="darkstyle\icon_checkbox_checked.png" />
+    <None Include="darkstyle\icon_checkbox_checked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_checked_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_close.png" />
+    <None Include="darkstyle\icon_radiobutton_checked.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_pressed.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_restore.png" />
+    <None Include="darkstyle\icon_undock.png" />
+    <None Include="darkstyle\icon_vline.png" />
+  </ItemGroup>
+</Project>

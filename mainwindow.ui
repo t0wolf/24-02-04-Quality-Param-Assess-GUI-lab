@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>75</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="8">
+          <widget class="QPushButton" name="browserParamButton">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>17</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    /* 设置按钮的默认状态样式 */
+    background-color: #505050; /* 暗灰色背景 */
+    color: #E0E0E0; /* 浅灰色文字 */
+    border: 1px solid #707070; /* 边框颜色稍亮一些的灰色 */
+    border-radius: 4px; /* 边框圆角 */
+    padding: 5px; /* 内部填充 */
+}
+
+QPushButton:hover {
+    /* 设置鼠标悬停在按钮上时的样式 */
+    background-color: #626262; /* 鼠标悬停时背景颜色变深 */
+    border: 1px solid #909090; /* 鼠标悬停时边框颜色变亮 */
+}
+
+QPushButton:pressed {
+    /* 设置按钮被按下时的样式 */
+    background-color: #787878; /* 按钮按下时的背景颜色变得更深 */
+    border: 1px solid #A0A0A0; /* 按钮按下时边框颜色变亮 */
+}
+
+QPushButton:disabled {
+    /* 设置按钮不可用（禁用）状态的样式 */
+    background-color: #303030; /* 禁用状态的暗色背景 */
+    color: #606060; /* 禁用状态的文字颜色较暗 */
+    border: 1px solid #404040; /* 禁用状态的边框颜色 */
+}</string>
+           </property>
+           <property name="text">
+            <string>浏览参数</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Preferred</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+    /* border: 3px solid #3399ff; */ /* 边框设为亮蓝色，宽度为3px */
+    border-radius: 10px; /* 边框圆角为10px */
+    background-color: #2d2d30; /* 背景颜色稍亮于窗体背景 */
+    color: #ffffff; /* 文字颜色为白色 */
+    padding: 8px; /* 设置内边距 */
+    font-family: '微软雅黑', Arial, sans-serif; /* 首选微软雅黑，如果系统不支持则回退至Arial */
+    font-size: 14px; /* 字体大小设置为14px */
+    font-weight: bold; /* 字体加粗 */
+}</string>
+           </property>
+           <property name="text">
+            <string>病人ID：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="patientNameLabel">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+    border: 3px solid #3399ff; /* 边框设为亮蓝色，宽度为3px */
+    border-radius: 10px; /* 边框圆角为10px */
+    background-color: #2d2d30; /* 背景颜色稍亮于窗体背景 */
+    color: #ffffff; /* 文字颜色为白色 */
+    padding: 8px; /* 设置内边距 */
+    font-family: '微软雅黑', Arial, sans-serif; /* 首选微软雅黑，如果系统不支持则回退至Arial */
+    font-size: 14px; /* 字体大小设置为14px */
+    font-weight: bold; /* 字体加粗 */
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="11">
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="5">
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Preferred</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="patientIDLabel">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+    border: 3px solid #3399ff; /* 边框设为亮蓝色，宽度为3px */
+    border-radius: 10px; /* 边框圆角为10px */
+    background-color: #2d2d30; /* 背景颜色稍亮于窗体背景 */
+    color: #ffffff; /* 文字颜色为白色 */
+    padding: 8px; /* 设置内边距 */
+    font-family: '微软雅黑', Arial, sans-serif; /* 首选微软雅黑，如果系统不支持则回退至Arial */
+    font-size: 14px; /* 字体大小设置为14px */
+    font-weight: bold; /* 字体加粗 */
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="10">
+          <widget class="QPushButton" name="patientListButton">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>17</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    /* 设置按钮的默认状态样式 */
+    background-color: #505050; /* 暗灰色背景 */
+    color: #E0E0E0; /* 浅灰色文字 */
+    border: 1px solid #707070; /* 边框颜色稍亮一些的灰色 */
+    border-radius: 4px; /* 边框圆角 */
+    padding: 5px; /* 内部填充 */
+}
+
+QPushButton:hover {
+    /* 设置鼠标悬停在按钮上时的样式 */
+    background-color: #626262; /* 鼠标悬停时背景颜色变深 */
+    border: 1px solid #909090; /* 鼠标悬停时边框颜色变亮 */
+}
+
+QPushButton:pressed {
+    /* 设置按钮被按下时的样式 */
+    background-color: #787878; /* 按钮按下时的背景颜色变得更深 */
+    border: 1px solid #A0A0A0; /* 按钮按下时边框颜色变亮 */
+}
+
+QPushButton:disabled {
+    /* 设置按钮不可用（禁用）状态的样式 */
+    background-color: #303030; /* 禁用状态的暗色背景 */
+    color: #606060; /* 禁用状态的文字颜色较暗 */
+    border: 1px solid #404040; /* 禁用状态的边框颜色 */
+}</string>
+           </property>
+           <property name="text">
+            <string>病人列表</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+    /* border: 3px solid #3399ff; */ /* 边框设为亮蓝色，宽度为3px */
+    border-radius: 10px; /* 边框圆角为10px */
+    background-color: #2d2d30; /* 背景颜色稍亮于窗体背景 */
+    color: #ffffff; /* 文字颜色为白色 */
+    padding: 8px; /* 设置内边距 */
+    font-family: '微软雅黑', Arial, sans-serif; /* 首选微软雅黑，如果系统不支持则回退至Arial */
+    font-size: 14px; /* 字体大小设置为14px */
+    font-weight: bold; /* 字体加粗 */
+}</string>
+           </property>
+           <property name="text">
+            <string>病人姓名：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Preferred</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="6">
+          <widget class="QPushButton" name="clearAllButton">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>17</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    /* 设置按钮的默认状态样式 */
+    background-color: #505050; /* 暗灰色背景 */
+    color: #E0E0E0; /* 浅灰色文字 */
+    border: 1px solid #707070; /* 边框颜色稍亮一些的灰色 */
+    border-radius: 4px; /* 边框圆角 */
+    padding: 5px; /* 内部填充 */
+}
+
+QPushButton:hover {
+    /* 设置鼠标悬停在按钮上时的样式 */
+    background-color: #626262; /* 鼠标悬停时背景颜色变深 */
+    border: 1px solid #909090; /* 鼠标悬停时边框颜色变亮 */
+}
+
+QPushButton:pressed {
+    /* 设置按钮被按下时的样式 */
+    background-color: #787878; /* 按钮按下时的背景颜色变得更深 */
+    border: 1px solid #A0A0A0; /* 按钮按下时边框颜色变亮 */
+}
+
+QPushButton:disabled {
+    /* 设置按钮不可用（禁用）状态的样式 */
+    background-color: #303030; /* 禁用状态的暗色背景 */
+    color: #606060; /* 禁用状态的文字颜色较暗 */
+    border: 1px solid #404040; /* 禁用状态的边框颜色 */
+}</string>
+           </property>
+           <property name="text">
+            <string>清空</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="9">
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Preferred</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QWidget" name="displayWidget" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>1000</width>
+             <height>600</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <property name="spacing">
+               <number>7</number>
+              </property>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="rightSideWidget" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>500</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <property name="spacing">
+               <number>1</number>
+              </property>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="actionMenu">
+    <property name="title">
+     <string>配置</string>
+    </property>
+    <addaction name="actionSettings"/>
+   </widget>
+   <widget class="QMenu" name="aboutMenu">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="actionMenu"/>
+   <addaction name="aboutMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSettings">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>系统配置</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionSettings</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onActionSettingsTriggered()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>959</x>
+     <y>539</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAbout</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onAboutSettingsTriggered()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>959</x>
+     <y>539</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>patientListButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onPatientListButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1215</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>959</x>
+     <y>539</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onBrowserButtonClicked()</slot>
+  <slot>onActionSettingsTriggered()</slot>
+  <slot>onAboutSettingsTriggered()</slot>
+  <slot>onPatientListButtonClicked()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,1696 @@
+{
+	"BUILD_DIR" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/24_02_04_Quality_Param_Assess_GUI_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI",
+	"CMAKE_EXECUTABLE" : "D:/Softwares/CLion 2024.1/bin/cmake/win/x64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/CMakeLists.txt",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/3.28.1/CMakeSystem.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/3.28.1/CMakeCCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/3.28.1/CMakeRCCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/3.28.1/CMakeCCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseArguments.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"D:/Softwares/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI",
+	"DEP_FILE" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/24_02_04_Quality_Param_Assess_GUI_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "24_02_04_Quality_Param_Assess_GUI_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/DarkStyle.h",
+			"MU",
+			"EWIEGA46WW/moc_DarkStyle.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/clickable_label.h",
+			"MU",
+			"EWIEGA46WW/moc_clickable_label.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/config_parse.h",
+			"MU",
+			"EWIEGA46WW/moc_config_parse.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/display_stream_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_display_stream_widget.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/general_utils.h",
+			"MU",
+			"EWIEGA46WW/moc_general_utils.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/info_extraction/InfoExtractor.h",
+			"MU",
+			"32ULFOO7LQ/moc_InfoExtractor.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/info_extraction/ScaleExtractor.h",
+			"MU",
+			"32ULFOO7LQ/moc_ScaleExtractor.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/logger.h",
+			"MU",
+			"EWIEGA46WW/moc_logger.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/logging.h",
+			"MU",
+			"EWIEGA46WW/moc_logging.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/models_inference_thread.h",
+			"MU",
+			"EWIEGA46WW/moc_models_inference_thread.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/ocr_inference/OCRDet.h",
+			"MU",
+			"KIWYY2PZ4B/moc_OCRDet.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/ocr_inference/OCRInferer.h",
+			"MU",
+			"KIWYY2PZ4B/moc_OCRInferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/ocr_inference/OCRRec.h",
+			"MU",
+			"KIWYY2PZ4B/moc_OCRRec.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assess_thread.h",
+			"MU",
+			"EWIEGA46WW/moc_param_assess_thread.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assess_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_param_assess_widget.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assesser.h",
+			"MU",
+			"EWIEGA46WW/moc_param_assesser.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/DoSpecParamsAssess.h",
+			"MU",
+			"DGSAXCFQTU/moc_DoSpecParamsAssess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/aad_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_aad_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/aao_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_aao_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/aao_segment_inferer.h",
+			"MU",
+			"DGSAXCFQTU/moc_aao_segment_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/asd_and_sjd_access.h",
+			"MU",
+			"DGSAXCFQTU/moc_asd_and_sjd_access.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/assess_utils.h",
+			"MU",
+			"DGSAXCFQTU/moc_assess_utils.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/avad_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_avad_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/avad_keypoints_inferer.h",
+			"MU",
+			"DGSAXCFQTU/moc_avad_keypoints_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/ef_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_ef_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/ef_segment_inferer.h",
+			"MU",
+			"DGSAXCFQTU/moc_ef_segment_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/ef_video_inferer.h",
+			"MU",
+			"DGSAXCFQTU/moc_ef_video_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/fvav_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_fvav_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/image_process.h",
+			"MU",
+			"DGSAXCFQTU/moc_image_process.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/ivs_and_pw_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_ivs_and_pw_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/laad_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_laad_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/logger.h",
+			"MU",
+			"DGSAXCFQTU/moc_logger.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/logging.h",
+			"MU",
+			"DGSAXCFQTU/moc_logging.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/mvea_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_mvea_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/mvea_keypoints_inferer.h",
+			"MU",
+			"DGSAXCFQTU/moc_mvea_keypoints_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/param_roi_detection.h",
+			"MU",
+			"DGSAXCFQTU/moc_param_roi_detection.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/plax_params_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_plax_params_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/pv_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_pv_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/pv_keypoints_inferer.h",
+			"MU",
+			"DGSAXCFQTU/moc_pv_keypoints_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/segment_infer_base.h",
+			"MU",
+			"DGSAXCFQTU/moc_segment_infer_base.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/tdi_ivs_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_tdi_ivs_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/tdi_ivs_keypoints_inferer.h",
+			"MU",
+			"DGSAXCFQTU/moc_tdi_ivs_keypoints_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/tdi_mvlw_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_tdi_mvlw_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/tr_assess.h",
+			"MU",
+			"DGSAXCFQTU/moc_tr_assess.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_display_item_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_param_display_item_widget.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_display_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_param_display_widget.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_premium_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_param_premium_widget.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/process_threads/InfoExtractThread.h",
+			"MU",
+			"URWSGZHTYN/moc_InfoExtractThread.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/process_threads/ParamAssessThread.h",
+			"MU",
+			"URWSGZHTYN/moc_ParamAssessThread.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/process_threads/quality_control_thread.h",
+			"MU",
+			"URWSGZHTYN/moc_quality_control_thread.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/progress_super_thread.h",
+			"MU",
+			"EWIEGA46WW/moc_progress_super_thread.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/AngleCalculationA4C.h",
+			"MU",
+			"K4G5I43IEX/moc_AngleCalculationA4C.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/AngleCalculationPLAX.h",
+			"MU",
+			"K4G5I43IEX/moc_AngleCalculationPLAX.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQuality.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQuality.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentA2C.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQualityAssessmentA2C.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentA3C.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQualityAssessmentA3C.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentA4C.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQualityAssessmentA4C.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentA5C.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQualityAssessmentA5C.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPLAX.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQualityAssessmentPLAX.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPSAXA.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQualityAssessmentPSAXA.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPSAXGV.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQualityAssessmentPSAXGV.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPSAXMV.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQualityAssessmentPSAXMV.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPSAXPM.h",
+			"MU",
+			"K4G5I43IEX/moc_EchoQualityAssessmentPSAXPM.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/GainClassification.h",
+			"MU",
+			"K4G5I43IEX/moc_GainClassification.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/KeyframeDetection.h",
+			"MU",
+			"K4G5I43IEX/moc_KeyframeDetection.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/RoIExtraction.h",
+			"MU",
+			"K4G5I43IEX/moc_RoIExtraction.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/StructureDetection.h",
+			"MU",
+			"K4G5I43IEX/moc_StructureDetection.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/angleinfer_a4c.h",
+			"MU",
+			"K4G5I43IEX/moc_angleinfer_a4c.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/angleinfer_plax.h",
+			"MU",
+			"K4G5I43IEX/moc_angleinfer_plax.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/buffers.h",
+			"MU",
+			"K4G5I43IEX/moc_buffers.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/BatchStream.h",
+			"MU",
+			"CXTTFERATL/moc_BatchStream.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/EntropyCalibrator.h",
+			"MU",
+			"CXTTFERATL/moc_EntropyCalibrator.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/ErrorRecorder.h",
+			"MU",
+			"CXTTFERATL/moc_ErrorRecorder.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/argsParser.h",
+			"MU",
+			"CXTTFERATL/moc_argsParser.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/buffers.h",
+			"MU",
+			"CXTTFERATL/moc_buffers.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/common.h",
+			"MU",
+			"CXTTFERATL/moc_common.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/getOptions.h",
+			"MU",
+			"CXTTFERATL/moc_getOptions.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/half.h",
+			"MU",
+			"CXTTFERATL/moc_half.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/logging.h",
+			"MU",
+			"CXTTFERATL/moc_logging.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/parserOnnxConfig.h",
+			"MU",
+			"CXTTFERATL/moc_parserOnnxConfig.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/safeCommon.h",
+			"MU",
+			"CXTTFERATL/moc_safeCommon.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleConfig.h",
+			"MU",
+			"CXTTFERATL/moc_sampleConfig.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleDevice.h",
+			"MU",
+			"CXTTFERATL/moc_sampleDevice.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleEngines.h",
+			"MU",
+			"CXTTFERATL/moc_sampleEngines.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleInference.h",
+			"MU",
+			"CXTTFERATL/moc_sampleInference.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleOptions.h",
+			"MU",
+			"CXTTFERATL/moc_sampleOptions.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleReporting.h",
+			"MU",
+			"CXTTFERATL/moc_sampleReporting.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleUtils.h",
+			"MU",
+			"CXTTFERATL/moc_sampleUtils.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/windows/getopt.h",
+			"MU",
+			"NHZ4R4I5Q5/moc_getopt.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/cplusfuncs.h",
+			"MU",
+			"K4G5I43IEX/moc_cplusfuncs.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/echo_quality_control.h",
+			"MU",
+			"K4G5I43IEX/moc_echo_quality_control.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/gaininfer.h",
+			"MU",
+			"K4G5I43IEX/moc_gaininfer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/integrity_classification.h",
+			"MU",
+			"K4G5I43IEX/moc_integrity_classification.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/iqaparams.h",
+			"MU",
+			"K4G5I43IEX/moc_iqaparams.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/keyframe_det_inferer.h",
+			"MU",
+			"K4G5I43IEX/moc_keyframe_det_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/keyframe_detector.h",
+			"MU",
+			"K4G5I43IEX/moc_keyframe_detector.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/keyframeinfer.h",
+			"MU",
+			"K4G5I43IEX/moc_keyframeinfer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/opencvfuncs.h",
+			"MU",
+			"K4G5I43IEX/moc_opencvfuncs.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/quality_control.h",
+			"MU",
+			"K4G5I43IEX/moc_quality_control.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/quality_utils.h",
+			"MU",
+			"K4G5I43IEX/moc_quality_utils.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/roi_detection.h",
+			"MU",
+			"K4G5I43IEX/moc_roi_detection.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/structureinfer.h",
+			"MU",
+			"K4G5I43IEX/moc_structureinfer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/typemappings.h",
+			"MU",
+			"K4G5I43IEX/moc_typemappings.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control_thread.h",
+			"MU",
+			"EWIEGA46WW/moc_quality_control_thread.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_quality_control_widget.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_detail_play_thread.h",
+			"MU",
+			"EWIEGA46WW/moc_quality_detail_play_thread.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_detail_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_quality_detail_widget.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_display_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_quality_display_widget.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/allocators.h",
+			"MU",
+			"3WSRPN5M42/moc_allocators.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/cursorstreamwrapper.h",
+			"MU",
+			"3WSRPN5M42/moc_cursorstreamwrapper.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/document.h",
+			"MU",
+			"3WSRPN5M42/moc_document.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/encodedstream.h",
+			"MU",
+			"3WSRPN5M42/moc_encodedstream.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/encodings.h",
+			"MU",
+			"3WSRPN5M42/moc_encodings.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/error/en.h",
+			"MU",
+			"BMDPXIVMT7/moc_en.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/error/error.h",
+			"MU",
+			"BMDPXIVMT7/moc_error.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/filereadstream.h",
+			"MU",
+			"3WSRPN5M42/moc_filereadstream.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/filewritestream.h",
+			"MU",
+			"3WSRPN5M42/moc_filewritestream.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/fwd.h",
+			"MU",
+			"3WSRPN5M42/moc_fwd.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/biginteger.h",
+			"MU",
+			"JHT4NRQGLZ/moc_biginteger.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/clzll.h",
+			"MU",
+			"JHT4NRQGLZ/moc_clzll.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/diyfp.h",
+			"MU",
+			"JHT4NRQGLZ/moc_diyfp.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/dtoa.h",
+			"MU",
+			"JHT4NRQGLZ/moc_dtoa.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/ieee754.h",
+			"MU",
+			"JHT4NRQGLZ/moc_ieee754.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/itoa.h",
+			"MU",
+			"JHT4NRQGLZ/moc_itoa.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/meta.h",
+			"MU",
+			"JHT4NRQGLZ/moc_meta.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/pow10.h",
+			"MU",
+			"JHT4NRQGLZ/moc_pow10.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/regex.h",
+			"MU",
+			"JHT4NRQGLZ/moc_regex.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/stack.h",
+			"MU",
+			"JHT4NRQGLZ/moc_stack.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/strfunc.h",
+			"MU",
+			"JHT4NRQGLZ/moc_strfunc.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/strtod.h",
+			"MU",
+			"JHT4NRQGLZ/moc_strtod.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal/swap.h",
+			"MU",
+			"JHT4NRQGLZ/moc_swap.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/istreamwrapper.h",
+			"MU",
+			"3WSRPN5M42/moc_istreamwrapper.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/memorybuffer.h",
+			"MU",
+			"3WSRPN5M42/moc_memorybuffer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/memorystream.h",
+			"MU",
+			"3WSRPN5M42/moc_memorystream.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/msinttypes/inttypes.h",
+			"MU",
+			"UHIUXDJKZH/moc_inttypes.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/msinttypes/stdint.h",
+			"MU",
+			"UHIUXDJKZH/moc_stdint.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/ostreamwrapper.h",
+			"MU",
+			"3WSRPN5M42/moc_ostreamwrapper.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/pointer.h",
+			"MU",
+			"3WSRPN5M42/moc_pointer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/prettywriter.h",
+			"MU",
+			"3WSRPN5M42/moc_prettywriter.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/rapidjson.h",
+			"MU",
+			"3WSRPN5M42/moc_rapidjson.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/reader.h",
+			"MU",
+			"3WSRPN5M42/moc_reader.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/schema.h",
+			"MU",
+			"3WSRPN5M42/moc_schema.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/stream.h",
+			"MU",
+			"3WSRPN5M42/moc_stream.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/stringbuffer.h",
+			"MU",
+			"3WSRPN5M42/moc_stringbuffer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/uri.h",
+			"MU",
+			"3WSRPN5M42/moc_uri.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/writer.h",
+			"MU",
+			"3WSRPN5M42/moc_writer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/spec_classification_inferer.h",
+			"MU",
+			"EWIEGA46WW/moc_spec_classification_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/type_conversion.h",
+			"MU",
+			"EWIEGA46WW/moc_type_conversion.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/type_define.h",
+			"MU",
+			"EWIEGA46WW/moc_type_define.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/type_registering.h",
+			"MU",
+			"EWIEGA46WW/moc_type_registering.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/typemapping.h",
+			"MU",
+			"EWIEGA46WW/moc_typemapping.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/video_stream_thread.h",
+			"MU",
+			"EWIEGA46WW/moc_video_stream_thread.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/view_classification_inferer.h",
+			"MU",
+			"EWIEGA46WW/moc_view_classification_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/view_cls_inferer.h",
+			"MU",
+			"EWIEGA46WW/moc_view_cls_inferer.cpp",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/view_progress_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_view_progress_widget.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/24_02_04_Quality_Param_Assess_GUI_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/24_02_04_Quality_Param_Assess_GUI_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB", "WIN32" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/debug",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/framelesswindow",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/info_extraction",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/ocr_inference",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/process_threads",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/windows",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/error",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/internal",
+		"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/rapidjson/msinttypes",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/include",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/include/QtCore",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/mkspecs/win32-msvc",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/include/QtGui",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/include/QtANGLE",
+		"D:/local_install/Qt-5.15/5.15.2/msvc2019_64/include/QtWidgets"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 16,
+	"PARSE_CACHE_FILE" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/24_02_04_Quality_Param_Assess_GUI_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "D:/local_install/Qt-5.15/5.15.2/msvc2019_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/local_install/Qt-5.15/5.15.2/msvc2019_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/cmake-build-debug-vs/CMakeFiles/24_02_04_Quality_Param_Assess_GUI_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/DarkStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/clickable_label.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/config_parse.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/display_stream_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/general_utils.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/info_extraction/InfoExtractor.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/info_extraction/ScaleExtractor.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/logger.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/models_inference_thread.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/ocr_inference/OCRDet.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/ocr_inference/OCRInferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/ocr_inference/OCRRec.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assess_thread.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assess_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assesser.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/DoSpecParamsAssess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/aad_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/aao_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/aao_segment_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/asd_and_sjd_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/assess_utils.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/avad_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/avad_keypoints_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/ef_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/ef_segment_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/ef_video_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/fvav_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/image_process.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/ivs_and_pw_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/laad_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/logger.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/mvea_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/mvea_keypoints_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/param_roi_detection.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/plax_params_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/pv_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/pv_keypoints_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/segment_infer_base.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/tdi_ivs_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/tdi_ivs_keypoints_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/tdi_mvlw_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_assessment/tr_assess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_display_item_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_display_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/param_premium_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/process_threads/InfoExtractThread.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/process_threads/ParamAssessThread.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/process_threads/quality_control_thread.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/progress_super_thread.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/AngleCalculationA4C.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/AngleCalculationPLAX.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQuality.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentA2C.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentA3C.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentA4C.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentA5C.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPLAX.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPSAXA.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPSAXGV.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPSAXMV.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/EchoQualityAssessmentPSAXPM.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/GainClassification.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/KeyframeDetection.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/RoIExtraction.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/StructureDetection.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/angleinfer_a4c.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/angleinfer_plax.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/getOptions.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleEngines.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleInference.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleOptions.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleReporting.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/sampleUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/common/windows/getopt.c",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/cplusfuncs.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/echo_quality_control.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/gaininfer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/integrity_classification.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/keyframe_det_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/keyframe_detector.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/keyframeinfer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/opencvfuncs.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/quality_control.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/quality_utils.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/roi_detection.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control/structureinfer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control_thread.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_control_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_detail_play_thread.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_detail_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/quality_display_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/spec_classification_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/type_conversion.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/video_stream_thread.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/view_classification_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/view_cls_inferer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/24-02-04-Quality-Param-Assess-GUI/24-02-04-Quality-Param-Assess-GUI/view_progress_widget.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

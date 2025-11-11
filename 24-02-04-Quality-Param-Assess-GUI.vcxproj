@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5CF91A5E-A07B-3ADE-B749-4D5D9F93CDDD}</ProjectGuid>
+    <RootNamespace>24-02-04-Quality-Param-Assess-GUI</RootNamespace>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.26100.0</WindowsTargetPlatformMinVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>24-02-04-Quality-Param-Assess-GUI</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>24-02-04-Quality-Param-Assess-GUI</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>5.12.11_msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>5.12.11_msvc2017_64</QtInstall>
+    <QtModules>core;xml;network;gui;widgets</QtModules>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">24-02-04-Quality-Param-Assess-GUI</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">24-02-04-Quality-Param-Assess-GUI</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include;D:\software\opencv\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\software\opencv\opencv\build\x64\vc16\lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;D:/local_install/opencv-4.5.5/opencv/build/include/opencv2;LIBS;+=;D:/local_install/opencv-4.5.5/opencv/build/include;D:/local_install/CUDA/v11.6/include;D:/local_install/TensorRT-8.6.1.6.Windows10.x86_64.cuda-11.8/TensorRT-8.6.1.6/include;D:/local_install/yaml-cpp/include;D/local_install/rapidjson/include/rapidjson;release;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_DEBUG;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>
+      </ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>D:/local_install/opencv-4.5.5/opencv/build/x64/vc15/lib/opencv_world455d.lib;cuda.lib;cudart.lib;nvinfer.lib;nvparsers.lib;nvinfer_plugin.lib;nvonnxparser.lib;D:/local_install/yaml-cpp/lib/yaml-cppd.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\local_install\CUDA\v11.6\lib\x64;D:\local_install\TensorRT-8.6.1.6.Windows10.x86_64.cuda-11.8\TensorRT-8.6.1.6\lib;C:\openssl\lib;C:\Utils\my_sql\mysql-5.6.11-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\24-02-04-Quality-Param-Assess-GUI.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>$(Configuration)</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtRcc>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>$(Configuration)</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <QtUicDir>$(ProjectDir)</QtUicDir>
+      <QtUicFileName>ui_%(Filename).h</QtUicFileName>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\software\opencv\opencv\build\include;GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;D:/local_install/opencv-4.5.5/opencv/build/include/opencv2;LIBS;+=;D:/local_install/opencv-4.5.5/opencv/build/include;D:/local_install/CUDA/v11.6/include;D:/local_install/TensorRT-8.6.1.6.Windows10.x86_64.cuda-11.8/TensorRT-8.6.1.6/include;D:/local_install/yaml-cpp/include;D/local_install/rapidjson/include/rapidjson;debug;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>D:/local_install/opencv-4.5.5/opencv/build/x64/vc15/lib/opencv_world455d.lib;opencv_world455d.lib;cuda.lib;cudart.lib;nvinfer.lib;nvparsers.lib;nvinfer_plugin.lib;nvonnxparser.lib;D:/local_install/yaml-cpp/lib/yaml-cppd.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\software\opencv\opencv\build\x64\vc16\lib;D:\local_install\CUDA\v11.6\lib\x64;D:\local_install\TensorRT-8.6.1.6.Windows10.x86_64.cuda-11.8\TensorRT-8.6.1.6\lib;C:\openssl\lib;C:\Utils\my_sql\mysql-5.6.11-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\24-02-04-Quality-Param-Assess-GUI.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtRcc>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>$(Configuration)</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>$(Configuration)</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <QtUicDir>$(ProjectDir)</QtUicDir>
+      <QtUicFileName>ui_%(Filename).h</QtUicFileName>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="quality_control\AngleCalculationA4C.cpp" />
+    <ClCompile Include="DarkStyle.cpp" />
+    <ClCompile Include="quality_control\EchoQuality.cpp" />
+    <ClCompile Include="quality_control\EchoQualityAssessmentA4C.cpp" />
+    <ClCompile Include="quality_control\EchoQualityAssessmentPSAXA.cpp" />
+    <ClCompile Include="quality_control\EchoQualityAssessmentPSAXGV.cpp" />
+    <ClCompile Include="quality_control\EchoQualityAssessmentPSAXMV.cpp" />
+    <ClCompile Include="quality_control\GainClassification.cpp" />
+    <ClCompile Include="quality_control\KeyframeDetection.cpp" />
+    <ClCompile Include="quality_control\RoIExtraction.cpp" />
+    <ClCompile Include="quality_control\StructureDetection.cpp" />
+    <ClCompile Include="param_assessment\aad_assess.cpp" />
+    <ClCompile Include="param_assessment\aao_assess.cpp" />
+    <ClCompile Include="param_assessment\aao_segment_inferer.cpp" />
+    <ClCompile Include="quality_control\angleinfer_a4c.cpp" />
+    <ClCompile Include="param_assessment\asd_and_sjd_assess.cpp" />
+    <ClCompile Include="param_assessment\assess_utils.cpp" />
+    <ClCompile Include="param_assessment\avad_assess.cpp" />
+    <ClCompile Include="param_assessment\avad_keypoints_inferer.cpp" />
+    <ClCompile Include="clickable_label.cpp" />
+    <ClCompile Include="config_parse.cpp" />
+    <ClCompile Include="quality_control\cplusfuncs.cpp" />
+    <ClCompile Include="display_stream_widget.cpp" />
+    <ClCompile Include="quality_control\echo_quality_control.cpp" />
+    <ClCompile Include="param_assessment\ef_assess.cpp" />
+    <ClCompile Include="param_assessment\ef_segment_inferer.cpp" />
+    <ClCompile Include="param_assessment\ef_video_inferer.cpp" />
+    <ClCompile Include="framelesswindow\framelesswindow.cpp" />
+    <ClCompile Include="quality_control\gaininfer.cpp" />
+    <ClCompile Include="general_utils.cpp" />
+    <ClCompile Include="param_assessment\image_process.cpp" />
+    <ClCompile Include="quality_control\integrity_classification.cpp" />
+    <ClCompile Include="param_assessment\ivs_and_pw_assess.cpp" />
+    <ClCompile Include="quality_control\keyframe_det_inferer.cpp" />
+    <ClCompile Include="quality_control\keyframe_detector.cpp" />
+    <ClCompile Include="quality_control\keyframeinfer.cpp" />
+    <ClCompile Include="param_assessment\laad_assess.cpp" />
+    <ClCompile Include="logger.cpp" />
+    <ClCompile Include="param_assessment\logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainwindow.cpp" />
+    <ClCompile Include="models_inference_thread.cpp" />
+    <ClCompile Include="quality_control\opencvfuncs.cpp" />
+    <ClCompile Include="param_assess_thread.cpp" />
+    <ClCompile Include="param_assess_widget.cpp" />
+    <ClCompile Include="param_assesser.cpp" />
+    <ClCompile Include="param_display_item_widget.cpp" />
+    <ClCompile Include="param_display_widget.cpp" />
+    <ClCompile Include="param_premium_widget.cpp" />
+    <ClCompile Include="param_assessment\plax_params_assess.cpp" />
+    <ClCompile Include="progress_super_thread.cpp" />
+    <ClCompile Include="quality_control\quality_control.cpp" />
+    <ClCompile Include="process_threads\quality_control_thread.cpp" />
+    <ClCompile Include="quality_control_widget.cpp" />
+    <ClCompile Include="quality_detail_play_thread.cpp" />
+    <ClCompile Include="quality_detail_widget.cpp" />
+    <ClCompile Include="quality_display_widget.cpp" />
+    <ClCompile Include="quality_control\quality_utils.cpp" />
+    <ClCompile Include="quality_control\roi_detection.cpp" />
+    <ClCompile Include="param_assessment\segment_infer_base.cpp" />
+    <ClCompile Include="quality_control\structureinfer.cpp" />
+    <ClCompile Include="video_stream_thread.cpp" />
+    <ClCompile Include="view_classification_inferer.cpp" />
+    <ClCompile Include="view_cls_inferer.cpp" />
+    <ClCompile Include="view_progress_widget.cpp" />
+    <ClCompile Include="framelesswindow\windowdragger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="quality_control\AngleCalculationA4C.h" />
+    <QtMoc Include="DarkStyle.h" />
+    <ClInclude Include="quality_control\EchoQuality.h" />
+    <ClInclude Include="quality_control\EchoQualityAssessmentA4C.h" />
+    <ClInclude Include="quality_control\EchoQualityAssessmentPSAXA.h" />
+    <ClInclude Include="quality_control\EchoQualityAssessmentPSAXGV.h" />
+    <ClInclude Include="quality_control\EchoQualityAssessmentPSAXMV.h" />
+    <ClInclude Include="quality_control\GainClassification.h" />
+    <ClInclude Include="quality_control\KeyframeDetection.h" />
+    <ClInclude Include="quality_control\RoIExtraction.h" />
+    <ClInclude Include="quality_control\StructureDetection.h" />
+    <ClInclude Include="param_assessment\aad_assess.h" />
+    <ClInclude Include="param_assessment\aao_assess.h" />
+    <ClInclude Include="param_assessment\aao_segment_inferer.h" />
+    <ClInclude Include="rapidjson\allocators.h" />
+    <ClInclude Include="quality_control\angleinfer_a4c.h" />
+    <ClInclude Include="param_assessment\asd_and_sjd_access.h" />
+    <ClInclude Include="param_assessment\assess_utils.h" />
+    <ClInclude Include="param_assessment\avad_assess.h" />
+    <ClInclude Include="param_assessment\avad_keypoints_inferer.h" />
+    <ClInclude Include="rapidjson\internal\biginteger.h" />
+    <ClInclude Include="quality_control\buffers.h" />
+    <QtMoc Include="clickable_label.h" />
+    <ClInclude Include="rapidjson\internal\clzll.h" />
+    <ClInclude Include="config_parse.h" />
+    <ClInclude Include="quality_control\cplusfuncs.h" />
+    <ClInclude Include="rapidjson\cursorstreamwrapper.h" />
+    <QtMoc Include="display_stream_widget.h" />
+    <ClInclude Include="rapidjson\internal\diyfp.h" />
+    <ClInclude Include="rapidjson\document.h" />
+    <ClInclude Include="rapidjson\internal\dtoa.h" />
+    <ClInclude Include="quality_control\echo_quality_control.h" />
+    <ClInclude Include="param_assessment\ef_assess.h" />
+    <ClInclude Include="param_assessment\ef_segment_inferer.h" />
+    <ClInclude Include="param_assessment\ef_video_inferer.h" />
+    <ClInclude Include="rapidjson\error\en.h" />
+    <ClInclude Include="rapidjson\encodedstream.h" />
+    <ClInclude Include="rapidjson\encodings.h" />
+    <ClInclude Include="rapidjson\error\error.h" />
+    <ClInclude Include="rapidjson\filereadstream.h" />
+    <ClInclude Include="rapidjson\filewritestream.h" />
+    <QtMoc Include="framelesswindow\framelesswindow.h" />
+    <ClInclude Include="rapidjson\fwd.h" />
+    <ClInclude Include="quality_control\gaininfer.h" />
+    <ClInclude Include="general_utils.h" />
+    <ClInclude Include="rapidjson\internal\ieee754.h" />
+    <ClInclude Include="param_assessment\image_process.h" />
+    <ClInclude Include="quality_control\integrity_classification.h" />
+    <ClInclude Include="rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="quality_control\iqaparams.h" />
+    <ClInclude Include="rapidjson\istreamwrapper.h" />
+    <ClInclude Include="rapidjson\internal\itoa.h" />
+    <ClInclude Include="param_assessment\ivs_and_pw_assess.h" />
+    <ClInclude Include="quality_control\keyframe_det_inferer.h" />
+    <ClInclude Include="quality_control\keyframe_detector.h" />
+    <ClInclude Include="quality_control\keyframeinfer.h" />
+    <ClInclude Include="param_assessment\laad_assess.h" />
+    <ClInclude Include="logger.h" />
+    <ClInclude Include="param_assessment\logger.h" />
+    <ClInclude Include="logging.h" />
+    <ClInclude Include="param_assessment\logging.h" />
+    <QtMoc Include="mainwindow.h" />
+    <ClInclude Include="rapidjson\memorybuffer.h" />
+    <ClInclude Include="rapidjson\memorystream.h" />
+    <ClInclude Include="rapidjson\internal\meta.h" />
+    <QtMoc Include="models_inference_thread.h" />
+    <ClInclude Include="quality_control\opencvfuncs.h" />
+    <ClInclude Include="rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="param_assess_thread.h" />
+    <QtMoc Include="param_assess_widget.h" />
+    <ClInclude Include="param_assesser.h" />
+    <QtMoc Include="param_display_item_widget.h" />
+    <QtMoc Include="param_display_widget.h" />
+    <QtMoc Include="param_premium_widget.h" />
+    <ClInclude Include="param_assessment\plax_params_assess.h" />
+    <ClInclude Include="rapidjson\pointer.h" />
+    <ClInclude Include="rapidjson\internal\pow10.h" />
+    <ClInclude Include="rapidjson\prettywriter.h" />
+    <QtMoc Include="progress_super_thread.h" />
+    <ClInclude Include="quality_control\quality_control.h" />
+    <QtMoc Include="process_threads\quality_control_thread.h" />
+    <QtMoc Include="quality_control_widget.h" />
+    <QtMoc Include="quality_detail_play_thread.h" />
+    <QtMoc Include="quality_detail_widget.h" />
+    <QtMoc Include="quality_display_widget.h" />
+    <ClInclude Include="quality_control\quality_utils.h" />
+    <ClInclude Include="rapidjson\rapidjson.h" />
+    <ClInclude Include="rapidjson\reader.h" />
+    <ClInclude Include="rapidjson\internal\regex.h" />
+    <ClInclude Include="quality_control\roi_detection.h" />
+    <ClInclude Include="rapidjson\schema.h" />
+    <ClInclude Include="param_assessment\segment_infer_base.h" />
+    <ClInclude Include="rapidjson\internal\stack.h" />
+    <ClInclude Include="rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="rapidjson\stream.h" />
+    <ClInclude Include="rapidjson\internal\strfunc.h" />
+    <ClInclude Include="rapidjson\stringbuffer.h" />
+    <ClInclude Include="rapidjson\internal\strtod.h" />
+    <ClInclude Include="quality_control\structureinfer.h" />
+    <ClInclude Include="rapidjson\internal\swap.h" />
+    <ClInclude Include="typemapping.h" />
+    <ClInclude Include="quality_control\typemappings.h" />
+    <ClInclude Include="rapidjson\uri.h" />
+    <QtMoc Include="video_stream_thread.h" />
+    <ClInclude Include="view_classification_inferer.h" />
+    <ClInclude Include="view_cls_inferer.h" />
+    <QtMoc Include="view_progress_widget.h" />
+    <QtMoc Include="framelesswindow\windowdragger.h" />
+    <ClInclude Include="rapidjson\writer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /utf-8 -Zi -MDd -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;$(IntDir)\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /utf-8 -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;$(IntDir)\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="display_stream_widget.ui" />
+    <QtUic Include="framelesswindow\framelesswindow.ui" />
+    <QtUic Include="mainwindow.ui" />
+    <QtUic Include="param_assess_widget.ui" />
+    <QtUic Include="param_assess_widget_copy.ui" />
+    <QtUic Include="param_display_item_widget.ui" />
+    <QtUic Include="param_display_widget.ui" />
+    <QtUic Include="param_premium_widget.ui" />
+    <QtUic Include="quality_control_widget.ui" />
+    <QtUic Include="quality_detail_widget.ui" />
+    <QtUic Include="quality_display_widget.ui" />
+    <QtUic Include="view_progress_widget.ui" />
+    <QtUic Include="view_progress_widget_copy.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="darkstyle.qrc">
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">darkstyle</InitFuncName>
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">darkstyle</InitFuncName>
+    </QtRcc>
+    <None Include="darkstyle\darkstyle.qss" />
+    <QtRcc Include="framelesswindow.qrc">
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">framelesswindow</InitFuncName>
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">framelesswindow</InitFuncName>
+    </QtRcc>
+    <None Include="darkstyle\icon_branch_closed.png" />
+    <None Include="darkstyle\icon_branch_end.png" />
+    <None Include="darkstyle\icon_branch_more.png" />
+    <None Include="darkstyle\icon_branch_open.png" />
+    <None Include="darkstyle\icon_checkbox_checked.png" />
+    <None Include="darkstyle\icon_checkbox_checked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_checked_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_close.png" />
+    <None Include="resources\icon_delete.png" />
+    <None Include="resources\icon_delete_bright.png" />
+    <None Include="darkstyle\icon_radiobutton_checked.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_pressed.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_restore.png" />
+    <None Include="resources\icon_save.png" />
+    <None Include="resources\icon_save_bright.png" />
+    <None Include="darkstyle\icon_undock.png" />
+    <None Include="darkstyle\icon_vline.png" />
+    <None Include="images\icon_window_close.png" />
+    <None Include="images\icon_window_maximize.png" />
+    <None Include="images\icon_window_minimize.png" />
+    <None Include="images\icon_window_restore.png" />
+    <QtRcc Include="quality_param_system.qrc">
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">quality_param_system</InitFuncName>
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">quality_param_system</InitFuncName>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="darkstyle\darkstyle.qss" />
+    <None Include="quality_control\common\dumpTFWts.py" />
+    <None Include="darkstyle\icon_branch_closed.png" />
+    <None Include="darkstyle\icon_branch_end.png" />
+    <None Include="darkstyle\icon_branch_more.png" />
+    <None Include="darkstyle\icon_branch_open.png" />
+    <None Include="darkstyle\icon_checkbox_checked.png" />
+    <None Include="darkstyle\icon_checkbox_checked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_checked_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_close.png" />
+    <None Include="darkstyle\icon_radiobutton_checked.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_pressed.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_restore.png" />
+    <None Include="darkstyle\icon_undock.png" />
+    <None Include="darkstyle\icon_vline.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
