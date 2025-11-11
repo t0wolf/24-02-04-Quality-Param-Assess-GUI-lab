@@ -1,7 +1,8 @@
 ﻿//
 // Created by Ziyon Zeng && Hanlin Cheng on 2022/7/20.
 //
-#include "opencv.hpp"
+//#include "opencv.hpp"
+#include "opencv2/opencv.hpp"
 #include <iostream>
 #include <math.h>
 #include <algorithm>

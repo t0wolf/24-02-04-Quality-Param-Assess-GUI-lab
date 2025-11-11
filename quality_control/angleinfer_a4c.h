@@ -16,7 +16,8 @@
 #include <sstream>
 #include <ctime>
 #include <math.h>
-#include <opencv.hpp>
+//#include <opencv.hpp>
+#include "opencv2/opencv.hpp"
 
 #include "typemappings.h"
 

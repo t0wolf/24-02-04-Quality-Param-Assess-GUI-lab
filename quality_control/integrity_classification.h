@@ -3,7 +3,8 @@
 #include <fstream>
 #include <cassert>
 #include <chrono>
-#include <opencv.hpp>
+//#include <opencv.hpp>
+#include "opencv2/opencv.hpp"
 #include <cuda_runtime_api.h>
 #include <NvInfer.h>
 #include "logger.h"

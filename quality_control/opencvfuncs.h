@@ -2,7 +2,7 @@
    Created by SEU-BME-LBMD-chl, SEU-BME-LBMD-zzy, SEU-BME-LBMD-scj
 */
 #pragma once
-#include "opencv.hpp"
+//#include "opencv.hpp"
 #include "opencv2/opencv.hpp"
 #include "opencv2/core/core.hpp"
 #include "opencv2/highgui/highgui.hpp"  
