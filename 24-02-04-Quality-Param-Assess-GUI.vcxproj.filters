@@ -865,5 +865,57 @@
     <None Include="darkstyle\icon_restore.png" />
     <None Include="darkstyle\icon_undock.png" />
     <None Include="darkstyle\icon_vline.png" />
+    <None Include="darkstyle\darkstyle.qss" />
+    <None Include="darkstyle\icon_branch_closed.png" />
+    <None Include="darkstyle\icon_branch_end.png" />
+    <None Include="darkstyle\icon_branch_more.png" />
+    <None Include="darkstyle\icon_branch_open.png" />
+    <None Include="darkstyle\icon_checkbox_checked.png" />
+    <None Include="darkstyle\icon_checkbox_checked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_checked_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_close.png" />
+    <None Include="darkstyle\icon_radiobutton_checked.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_pressed.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_restore.png" />
+    <None Include="darkstyle\icon_undock.png" />
+    <None Include="darkstyle\icon_vline.png" />
+    <None Include="darkstyle\darkstyle.qss" />
+    <None Include="darkstyle\icon_branch_closed.png" />
+    <None Include="darkstyle\icon_branch_end.png" />
+    <None Include="darkstyle\icon_branch_more.png" />
+    <None Include="darkstyle\icon_branch_open.png" />
+    <None Include="darkstyle\icon_checkbox_checked.png" />
+    <None Include="darkstyle\icon_checkbox_checked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_checked_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_indeterminate_pressed.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_checkbox_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_close.png" />
+    <None Include="darkstyle\icon_radiobutton_checked.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_checked_pressed.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_disabled.png" />
+    <None Include="darkstyle\icon_radiobutton_unchecked_pressed.png" />
+    <None Include="darkstyle\icon_restore.png" />
+    <None Include="darkstyle\icon_undock.png" />
+    <None Include="darkstyle\icon_vline.png" />
+    <None Include="CMakePresets.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
 </Project>

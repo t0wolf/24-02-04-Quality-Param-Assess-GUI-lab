@@ -18,6 +18,10 @@ find_package(Qt5 COMPONENTS
 set(OpenCV_DIR "D:/software/opencv/opencv/build")  # 修改为你的实际路径
 find_package(OpenCV REQUIRED)
 
+set(YAML_CPP_INSTALL_PATH "C:/Libs/yaml-cpp")
+set(TENSORRT_ROOT "D:/software/TensorRT-8.4.1.5")
+set(FFMPEG_ROOT "C:/Libs/ffmpeg-8.0-full_build-shared") # **请修改为您的实际安装路径**
+
 
 include_directories(.)
 include_directories(debug)
@@ -33,6 +37,11 @@ include_directories(rapidjson)
 include_directories(rapidjson/error)
 include_directories(rapidjson/internal)
 include_directories(rapidjson/msinttypes)
+include_directories(SYSTEM ${YAML_CPP_INSTALL_PATH}/include)
+include_directories(SYSTEM ${TENSORRT_ROOT}/include)
+include_directories(SYSTEM ${FFMPEG_ROOT}/include)
+
+find_library(YAML_CPP_LIBRARY NAMES yaml-cpp PATHS ${YAML_CPP_INSTALL_PATH}/lib REQUIRED)
 
 add_executable(24_02_04_Quality_Param_Assess_GUI
 #        debug/qrc_darkstyle.cpp
@@ -303,6 +312,17 @@ target_link_libraries(24_02_04_Quality_Param_Assess_GUI
         Qt5::Gui
         Qt5::Widgets
         ${OpenCV_LIBS}
+        ${YAML_CPP_LIBRARY}
+        ${TENSORRT_ROOT}/lib/nvcaffe_parser.lib 
+        ${TENSORRT_ROOT}/lib/nvinfer.lib
+        ${FFMPEG_ROOT}/lib/avcodec.lib
+        ${FFMPEG_ROOT}/lib/avutil.lib
+        ${FFMPEG_ROOT}/lib/swscale.lib
+        ${FFMPEG_ROOT}/lib/avdevice.lib
+        ${FFMPEG_ROOT}/lib/avfilter.lib
+        ${FFMPEG_ROOT}/lib/avformat.lib
+        ${FFMPEG_ROOT}/lib/swresample.lib
+
 )
 
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
@@ -341,3 +361,8 @@ else()
     message(FATAL_ERROR "未找到 OpenCV 库")
 endif()
 
+if(YAML_CPP_LIBRARY)
+    message(STATUS "Found yaml-cpp library: ${YAML_CPP_LIBRARY}")
+else()
+    message(FATAL_ERROR "yaml-cpp library not found in ${YAML_CPP_INSTALL_PATH}/lib")
+endif()

@@ -1,0 +1,857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18D36D6F-72B6-32DC-A67E-7D427780E0C3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>24_02_04_Quality_Param_Assess_GUI</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">24_02_04_Quality_Param_Assess_GUI.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">24_02_04_Quality_Param_Assess_GUI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">24_02_04_Quality_Param_Assess_GUI.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">24_02_04_Quality_Param_Assess_GUI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">24_02_04_Quality_Param_Assess_GUI.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">24_02_04_Quality_Param_Assess_GUI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">24_02_04_Quality_Param_Assess_GUI.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">24_02_04_Quality_Param_Assess_GUI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Libs/yaml-cpp/include" /external:I "D:/software/TensorRT-8.4.1.5/include" /external:I "C:/Libs/ffmpeg-8.0-full_build-shared/include" /external:I "D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/24_02_04_Quality_Param_Assess_GUI_autogen/include_Debug" /external:I "C:/Users/ppro/anaconda3/Library/include/qt" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtCore" /external:I "C:/Users/ppro/anaconda3/Library/./mkspecs/win32-msvc" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtGui" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtANGLE" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtWidgets" /external:I "D:/software/opencv/opencv/build/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;C:\Libs\yaml-cpp\include;D:\software\TensorRT-8.4.1.5\include;C:\Libs\ffmpeg-8.0-full_build-shared\include;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\include_Debug;C:\Users\ppro\anaconda3\Library\include\qt;C:\Users\ppro\anaconda3\Library\include\qt\QtCore;C:\Users\ppro\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\ppro\anaconda3\Library\include\qt\QtGui;C:\Users\ppro\anaconda3\Library\include\qt\QtANGLE;C:\Users\ppro\anaconda3\Library\include\qt\QtWidgets;D:\software\opencv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;C:\Libs\yaml-cpp\include;D:\software\TensorRT-8.4.1.5\include;C:\Libs\ffmpeg-8.0-full_build-shared\include;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\include_Debug;C:\Users\ppro\anaconda3\Library\include\qt;C:\Users\ppro\anaconda3\Library\include\qt\QtCore;C:\Users\ppro\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\ppro\anaconda3\Library\include\qt\QtGui;C:\Users\ppro\anaconda3\Library\include\qt\QtANGLE;C:\Users\ppro\anaconda3\Library\include\qt\QtWidgets;D:\software\opencv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target 24_02_04_Quality_Param_Assess_GUI</Message>
+      <Command>setlocal
+cd D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\software\cmake\bin\cmake.exe -E cmake_autogen D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/CMakeFiles/24_02_04_Quality_Param_Assess_GUI_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Core.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Gui.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Widgets.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\ppro\anaconda3\Library\lib\Qt5Widgets_conda.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Libs\yaml-cpp\lib\yaml-cpp.lib;D:\software\TensorRT-8.4.1.5\lib\nvcaffe_parser.lib;D:\software\TensorRT-8.4.1.5\lib\nvinfer.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avcodec.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avutil.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\swscale.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avdevice.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avfilter.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avformat.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\swresample.lib;C:\Users\ppro\anaconda3\Library\lib\Qt5Gui_conda.lib;C:\Users\ppro\anaconda3\Library\lib\Qt5Core_conda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Debug/24_02_04_Quality_Param_Assess_GUI.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Debug/24_02_04_Quality_Param_Assess_GUI.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Libs/yaml-cpp/include" /external:I "D:/software/TensorRT-8.4.1.5/include" /external:I "C:/Libs/ffmpeg-8.0-full_build-shared/include" /external:I "D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/24_02_04_Quality_Param_Assess_GUI_autogen/include_Release" /external:I "C:/Users/ppro/anaconda3/Library/include/qt" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtCore" /external:I "C:/Users/ppro/anaconda3/Library/./mkspecs/win32-msvc" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtGui" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtANGLE" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtWidgets" /external:I "D:/software/opencv/opencv/build/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;C:\Libs\yaml-cpp\include;D:\software\TensorRT-8.4.1.5\include;C:\Libs\ffmpeg-8.0-full_build-shared\include;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\include_Release;C:\Users\ppro\anaconda3\Library\include\qt;C:\Users\ppro\anaconda3\Library\include\qt\QtCore;C:\Users\ppro\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\ppro\anaconda3\Library\include\qt\QtGui;C:\Users\ppro\anaconda3\Library\include\qt\QtANGLE;C:\Users\ppro\anaconda3\Library\include\qt\QtWidgets;D:\software\opencv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;C:\Libs\yaml-cpp\include;D:\software\TensorRT-8.4.1.5\include;C:\Libs\ffmpeg-8.0-full_build-shared\include;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\include_Release;C:\Users\ppro\anaconda3\Library\include\qt;C:\Users\ppro\anaconda3\Library\include\qt\QtCore;C:\Users\ppro\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\ppro\anaconda3\Library\include\qt\QtGui;C:\Users\ppro\anaconda3\Library\include\qt\QtANGLE;C:\Users\ppro\anaconda3\Library\include\qt\QtWidgets;D:\software\opencv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target 24_02_04_Quality_Param_Assess_GUI</Message>
+      <Command>setlocal
+cd D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\software\cmake\bin\cmake.exe -E cmake_autogen D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/CMakeFiles/24_02_04_Quality_Param_Assess_GUI_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Core.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Gui.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Widgets.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\ppro\anaconda3\Library\lib\Qt5Widgets_conda.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Libs\yaml-cpp\lib\yaml-cpp.lib;D:\software\TensorRT-8.4.1.5\lib\nvcaffe_parser.lib;D:\software\TensorRT-8.4.1.5\lib\nvinfer.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avcodec.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avutil.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\swscale.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avdevice.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avfilter.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avformat.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\swresample.lib;C:\Users\ppro\anaconda3\Library\lib\Qt5Gui_conda.lib;C:\Users\ppro\anaconda3\Library\lib\Qt5Core_conda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Release/24_02_04_Quality_Param_Assess_GUI.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/Release/24_02_04_Quality_Param_Assess_GUI.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Libs/yaml-cpp/include" /external:I "D:/software/TensorRT-8.4.1.5/include" /external:I "C:/Libs/ffmpeg-8.0-full_build-shared/include" /external:I "D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/24_02_04_Quality_Param_Assess_GUI_autogen/include_MinSizeRel" /external:I "C:/Users/ppro/anaconda3/Library/include/qt" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtCore" /external:I "C:/Users/ppro/anaconda3/Library/./mkspecs/win32-msvc" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtGui" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtANGLE" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtWidgets" /external:I "D:/software/opencv/opencv/build/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;C:\Libs\yaml-cpp\include;D:\software\TensorRT-8.4.1.5\include;C:\Libs\ffmpeg-8.0-full_build-shared\include;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\include_MinSizeRel;C:\Users\ppro\anaconda3\Library\include\qt;C:\Users\ppro\anaconda3\Library\include\qt\QtCore;C:\Users\ppro\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\ppro\anaconda3\Library\include\qt\QtGui;C:\Users\ppro\anaconda3\Library\include\qt\QtANGLE;C:\Users\ppro\anaconda3\Library\include\qt\QtWidgets;D:\software\opencv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;C:\Libs\yaml-cpp\include;D:\software\TensorRT-8.4.1.5\include;C:\Libs\ffmpeg-8.0-full_build-shared\include;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\include_MinSizeRel;C:\Users\ppro\anaconda3\Library\include\qt;C:\Users\ppro\anaconda3\Library\include\qt\QtCore;C:\Users\ppro\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\ppro\anaconda3\Library\include\qt\QtGui;C:\Users\ppro\anaconda3\Library\include\qt\QtANGLE;C:\Users\ppro\anaconda3\Library\include\qt\QtWidgets;D:\software\opencv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target 24_02_04_Quality_Param_Assess_GUI</Message>
+      <Command>setlocal
+cd D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\software\cmake\bin\cmake.exe -E cmake_autogen D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/CMakeFiles/24_02_04_Quality_Param_Assess_GUI_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Core.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Gui.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Widgets.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\ppro\anaconda3\Library\lib\Qt5Widgets_conda.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Libs\yaml-cpp\lib\yaml-cpp.lib;D:\software\TensorRT-8.4.1.5\lib\nvcaffe_parser.lib;D:\software\TensorRT-8.4.1.5\lib\nvinfer.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avcodec.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avutil.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\swscale.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avdevice.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avfilter.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avformat.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\swresample.lib;C:\Users\ppro\anaconda3\Library\lib\Qt5Gui_conda.lib;C:\Users\ppro\anaconda3\Library\lib\Qt5Core_conda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/MinSizeRel/24_02_04_Quality_Param_Assess_GUI.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/MinSizeRel/24_02_04_Quality_Param_Assess_GUI.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Libs/yaml-cpp/include" /external:I "D:/software/TensorRT-8.4.1.5/include" /external:I "C:/Libs/ffmpeg-8.0-full_build-shared/include" /external:I "D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/24_02_04_Quality_Param_Assess_GUI_autogen/include_RelWithDebInfo" /external:I "C:/Users/ppro/anaconda3/Library/include/qt" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtCore" /external:I "C:/Users/ppro/anaconda3/Library/./mkspecs/win32-msvc" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtGui" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtANGLE" /external:I "C:/Users/ppro/anaconda3/Library/include/qt/QtWidgets" /external:I "D:/software/opencv/opencv/build/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;C:\Libs\yaml-cpp\include;D:\software\TensorRT-8.4.1.5\include;C:\Libs\ffmpeg-8.0-full_build-shared\include;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\include_RelWithDebInfo;C:\Users\ppro\anaconda3\Library\include\qt;C:\Users\ppro\anaconda3\Library\include\qt\QtCore;C:\Users\ppro\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\ppro\anaconda3\Library\include\qt\QtGui;C:\Users\ppro\anaconda3\Library\include\qt\QtANGLE;C:\Users\ppro\anaconda3\Library\include\qt\QtWidgets;D:\software\opencv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\.;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\debug;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\framelesswindow;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes;C:\Libs\yaml-cpp\include;D:\software\TensorRT-8.4.1.5\include;C:\Libs\ffmpeg-8.0-full_build-shared\include;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\include_RelWithDebInfo;C:\Users\ppro\anaconda3\Library\include\qt;C:\Users\ppro\anaconda3\Library\include\qt\QtCore;C:\Users\ppro\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\ppro\anaconda3\Library\include\qt\QtGui;C:\Users\ppro\anaconda3\Library\include\qt\QtANGLE;C:\Users\ppro\anaconda3\Library\include\qt\QtWidgets;D:\software\opencv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target 24_02_04_Quality_Param_Assess_GUI</Message>
+      <Command>setlocal
+cd D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\software\cmake\bin\cmake.exe -E cmake_autogen D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/CMakeFiles/24_02_04_Quality_Param_Assess_GUI_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Core.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Gui.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\cmake\bin\cmake.exe -E copy D:/local_install/Qt-5.15/5.15.2/msvc2019_64/../../bin/Qt5Widgets.dll D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\ppro\anaconda3\Library\lib\Qt5Widgets_conda.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;D:\software\opencv\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Libs\yaml-cpp\lib\yaml-cpp.lib;D:\software\TensorRT-8.4.1.5\lib\nvcaffe_parser.lib;D:\software\TensorRT-8.4.1.5\lib\nvinfer.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avcodec.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avutil.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\swscale.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avdevice.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avfilter.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\avformat.lib;C:\Libs\ffmpeg-8.0-full_build-shared\lib\swresample.lib;C:\Users\ppro\anaconda3\Library\lib\Qt5Gui_conda.lib;C:\Users\ppro\anaconda3\Library\lib\Qt5Core_conda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/RelWithDebInfo/24_02_04_Quality_Param_Assess_GUI.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/RelWithDebInfo/24_02_04_Quality_Param_Assess_GUI.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\software\cmake\bin\cmake.exe -SD:/code/labproject/24-02-04-Quality-Param-Assess-GUI -BD:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build --check-stamp-file D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QPdfPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeCCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeCXXCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeRCCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeSystem.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeParseArguments.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\share\cmake-4.2\Modules\FindPackageMessage.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;D:\software\opencv\opencv\build\OpenCVConfig-version.cmake;D:\software\opencv\opencv\build\OpenCVConfig.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\software\cmake\bin\cmake.exe -SD:/code/labproject/24-02-04-Quality-Param-Assess-GUI -BD:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build --check-stamp-file D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QPdfPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeCCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeCXXCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeRCCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeSystem.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeParseArguments.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\share\cmake-4.2\Modules\FindPackageMessage.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;D:\software\opencv\opencv\build\OpenCVConfig-version.cmake;D:\software\opencv\opencv\build\OpenCVConfig.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\software\cmake\bin\cmake.exe -SD:/code/labproject/24-02-04-Quality-Param-Assess-GUI -BD:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build --check-stamp-file D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QPdfPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeCCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeCXXCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeRCCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeSystem.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeParseArguments.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\share\cmake-4.2\Modules\FindPackageMessage.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;D:\software\opencv\opencv\build\OpenCVConfig-version.cmake;D:\software\opencv\opencv\build\OpenCVConfig.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\software\cmake\bin\cmake.exe -SD:/code/labproject/24-02-04-Quality-Param-Assess-GUI -BD:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build --check-stamp-file D:/code/labproject/24-02-04-Quality-Param-Assess-GUI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QPdfPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\ppro\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeCCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeCXXCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeRCCompiler.cmake;D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\4.2.0-rc2\CMakeSystem.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeParseArguments.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\share\cmake-4.2\Modules\FindPackageMessage.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\Windows.cmake;D:\software\cmake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;D:\software\opencv\opencv\build\OpenCVConfig-version.cmake;D:\software\opencv\opencv\build\OpenCVConfig.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\software\opencv\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction\InfoExtractor.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction\InfoExtractor.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction\ScaleExtractor.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction\ScaleExtractor.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRDet.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRDet.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRInferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRInferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRRec.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRRec.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aad_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aad_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aao_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aao_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aao_segment_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aao_segment_inferer.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\asd_and_sjd_access.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\asd_and_sjd_assess.cpp" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\assess_utils.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\assess_utils.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\avad_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\avad_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\avad_keypoints_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\avad_keypoints_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\DoSpecParamsAssess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\DoSpecParamsAssess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_segment_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_segment_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_video_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_video_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\fvav_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\fvav_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\image_process.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\image_process.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ivs_and_pw_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ivs_and_pw_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\laad_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\laad_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\logger.cpp">
+      <ObjectFileName>$(IntDir)/param_assessment/logger.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\logger.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\logging.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\mvea_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\mvea_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\mvea_keypoints_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\mvea_keypoints_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\param_roi_detection.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\param_roi_detection.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\plax_params_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\plax_params_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\pv_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\pv_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\pv_keypoints_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\pv_keypoints_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\segment_infer_base.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\segment_infer_base.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_ivs_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_ivs_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_ivs_keypoints_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_ivs_keypoints_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_mvlw_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_mvlw_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tr_assess.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tr_assess.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\InfoExtractThread.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\InfoExtractThread.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\ParamAssessThread.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\ParamAssessThread.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\quality_control_thread.cpp">
+      <ObjectFileName>$(IntDir)/process_threads/quality_control_thread.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\quality_control_thread.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows\getopt.c" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows\getopt.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\argsParser.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\BatchStream.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\buffers.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\common.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\EntropyCalibrator.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\ErrorRecorder.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\getOptions.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\getOptions.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\half.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\logging.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\parserOnnxConfig.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\safeCommon.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleConfig.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleDevice.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleEngines.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleEngines.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleInference.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleInference.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleOptions.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleOptions.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleReporting.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleReporting.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleUtils.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleUtils.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\AngleCalculationA4C.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\AngleCalculationA4C.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\AngleCalculationPLAX.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\AngleCalculationPLAX.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\angleinfer_a4c.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\angleinfer_a4c.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\angleinfer_plax.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\angleinfer_plax.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\buffers.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\cplusfuncs.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\cplusfuncs.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\echo_quality_control.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\echo_quality_control.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQuality.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQuality.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA2C.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA2C.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA3C.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA3C.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA4C.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA4C.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA5C.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA5C.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPLAX.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPLAX.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXA.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXA.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXGV.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXGV.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXMV.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXMV.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXPM.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXPM.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\GainClassification.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\GainClassification.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\gaininfer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\gaininfer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\integrity_classification.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\integrity_classification.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\iqaparams.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframe_det_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframe_det_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframe_detector.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframe_detector.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\KeyframeDetection.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\KeyframeDetection.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframeinfer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframeinfer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\opencvfuncs.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\opencvfuncs.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\quality_utils.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\quality_utils.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\roi_detection.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\roi_detection.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\RoIExtraction.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\RoIExtraction.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\StructureDetection.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\StructureDetection.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\structureinfer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\structureinfer.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\typemappings.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error\en.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error\error.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\clzll.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\itoa.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\meta.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\pow10.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\regex.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\stack.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\strtod.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\swap.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\allocators.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\document.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\encodedstream.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\encodings.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\filereadstream.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\filewritestream.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\fwd.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\memorybuffer.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\memorystream.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\pointer.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\prettywriter.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\rapidjson.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\reader.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\schema.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\stream.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\stringbuffer.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\uri.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\writer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\clickable_label.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\clickable_label.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\config_parse.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\config_parse.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\DarkStyle.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\DarkStyle.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\display_stream_widget.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\display_stream_widget.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\general_utils.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\general_utils.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\logger.cpp">
+      <ObjectFileName>$(IntDir)/logger.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\logger.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\logging.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\main.cpp" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\mainwindow.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\mainwindow.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\models_inference_thread.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\models_inference_thread.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assess_thread.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assess_thread.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assess_widget.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assess_widget.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assesser.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assesser.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_display_item_widget.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_display_item_widget.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_display_widget.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_display_widget.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_premium_widget.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_premium_widget.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\progress_super_thread.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\progress_super_thread.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control_thread.cpp">
+      <ObjectFileName>$(IntDir)/quality_control_thread.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control_thread.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control_widget.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control_widget.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_detail_play_thread.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_detail_play_thread.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_detail_widget.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_detail_widget.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_display_widget.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_display_widget.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\spec_classification_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\spec_classification_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\type_conversion.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\type_conversion.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\type_define.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\type_registering.h" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\typemapping.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\video_stream_thread.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\video_stream_thread.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_classification_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_classification_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_cls_inferer.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_cls_inferer.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_progress_widget.cpp" />
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_progress_widget.h" />
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\ZERO_CHECK.vcxproj">
+      <Project>{AE086F68-C7F2-3235-A75B-7CB9D97184BD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

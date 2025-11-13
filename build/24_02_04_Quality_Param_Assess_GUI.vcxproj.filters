@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction\InfoExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction\ScaleExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRDet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRInferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRRec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aad_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aao_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aao_segment_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\asd_and_sjd_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\assess_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\avad_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\avad_keypoints_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\DoSpecParamsAssess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_segment_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_video_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\fvav_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\image_process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ivs_and_pw_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\laad_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\mvea_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\mvea_keypoints_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\param_roi_detection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\plax_params_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\pv_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\pv_keypoints_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\segment_infer_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_ivs_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_ivs_keypoints_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_mvlw_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tr_assess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\InfoExtractThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\ParamAssessThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\quality_control_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\getOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleEngines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleInference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleReporting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\AngleCalculationA4C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\AngleCalculationPLAX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\angleinfer_a4c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\angleinfer_plax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\cplusfuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\echo_quality_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQuality.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA2C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA3C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA4C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA5C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPLAX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXGV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXMV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXPM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\GainClassification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\gaininfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\integrity_classification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframe_det_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframe_detector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\KeyframeDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframeinfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\opencvfuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\quality_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\roi_detection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\RoIExtraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\StructureDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\structureinfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\clickable_label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\config_parse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\DarkStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\display_stream_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\general_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\models_inference_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assess_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assess_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assesser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_display_item_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_display_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_premium_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\progress_super_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_detail_play_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_detail_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_display_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\spec_classification_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\type_conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\video_stream_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_classification_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_cls_inferer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_progress_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\build\24_02_04_Quality_Param_Assess_GUI_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction\InfoExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\info_extraction\ScaleExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRDet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRInferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\ocr_inference\OCRRec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aad_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aao_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\aao_segment_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\asd_and_sjd_access.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\assess_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\avad_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\avad_keypoints_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\DoSpecParamsAssess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_segment_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ef_video_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\fvav_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\image_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\ivs_and_pw_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\laad_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\mvea_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\mvea_keypoints_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\param_roi_detection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\plax_params_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\pv_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\pv_keypoints_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\segment_infer_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_ivs_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_ivs_keypoints_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tdi_mvlw_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assessment\tr_assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\InfoExtractThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\ParamAssessThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\process_threads\quality_control_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\windows\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\argsParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\BatchStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\buffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\EntropyCalibrator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\ErrorRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\getOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\half.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\parserOnnxConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\safeCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleEngines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleInference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleReporting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\common\sampleUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\AngleCalculationA4C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\AngleCalculationPLAX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\angleinfer_a4c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\angleinfer_plax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\buffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\cplusfuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\echo_quality_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQuality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA2C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA3C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA4C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentA5C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPLAX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXGV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXMV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\EchoQualityAssessmentPSAXPM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\GainClassification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\gaininfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\integrity_classification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\iqaparams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframe_det_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframe_detector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\KeyframeDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\keyframeinfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\opencvfuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\quality_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\roi_detection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\RoIExtraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\StructureDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\structureinfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control\typemappings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error\en.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\error\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\biginteger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\clzll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\diyfp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\dtoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\ieee754.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\itoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\pow10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\regex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\strfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\strtod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\internal\swap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes\inttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\msinttypes\stdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\allocators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\cursorstreamwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\encodedstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\encodings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\filereadstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\filewritestream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\fwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\istreamwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\memorybuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\memorystream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\ostreamwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\prettywriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\rapidjson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\schema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\stringbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\uri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\rapidjson\writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\clickable_label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\config_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\DarkStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\display_stream_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\general_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\models_inference_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assess_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assess_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_assesser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_display_item_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_display_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\param_premium_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\progress_super_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_control_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_detail_play_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_detail_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\quality_display_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\spec_classification_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\type_conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\type_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\type_registering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\typemapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\video_stream_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_classification_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_cls_inferer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\view_progress_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\code\labproject\24-02-04-Quality-Param-Assess-GUI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3AAFB37F-87CB-378B-8353-C75487789CF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9CF532D7-3052-35A3-B12E-68114BB27679}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

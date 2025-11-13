@@ -5,7 +5,8 @@
 #include <fstream>
 #include <NvInfer.h>
 #include <cuda_runtime_api.h>
-#include <opencv.hpp>
+//#include <opencv.hpp>
+#include "opencv2/opencv.hpp"
 #include "logger.h"
 #include "typemapping.h"
 

@@ -411,6 +411,7 @@
       <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">darkstyle</InitFuncName>
       <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">darkstyle</InitFuncName>
     </QtRcc>
+    <None Include="CMakePresets.json" />
     <None Include="darkstyle\darkstyle.qss" />
     <QtRcc Include="framelesswindow.qrc">
       <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">framelesswindow</InitFuncName>
@@ -478,6 +479,9 @@
     <None Include="darkstyle\icon_restore.png" />
     <None Include="darkstyle\icon_undock.png" />
     <None Include="darkstyle\icon_vline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />
